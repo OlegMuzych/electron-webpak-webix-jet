@@ -33,10 +33,11 @@
 import './codebase/webix.css';
 
 
-import './test/myapp.js';
-import './test/myapp.css';
+// import './test/myapp.js';
+// import './test/myapp.css';
 
 //import './test/index.html';
+import  './app-jet/myapp.js';
 
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');
