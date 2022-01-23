@@ -44,10 +44,10 @@ module.exports = {
 
   resolve: {
     extensions: [".js"],
-    modules: ["./src/app-jet", "node_modules"],
+    modules: ["./src/jet-app", "node_modules"],
     alias: {
-      "jet-views": path.resolve(__dirname, "src/app-jet/views"),
-      "jet-locales": path.resolve(__dirname, "src/app-jet/locales")
+      "jet-views": path.resolve(__dirname, "src/jet-app/views"),
+      "jet-locales": path.resolve(__dirname, "src/jet-app/locales")
     }
   },
 };
